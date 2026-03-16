@@ -80,13 +80,13 @@ export default function LoginPage() {
           <div className="mt-6 border-t pt-6">
             <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mb-3 font-semibold">Demo Credentials:</p>
             <div className="space-y-2">
-              <button
+              {/* <button
                 type="button"
                 onClick={() => quickLogin('arafat', '112233')}
                 className="w-full p-2 sm:p-3 text-xs sm:text-sm bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded text-left transition"
               >
                 <span className="font-mono font-bold">arafat / 112233</span> <span className="text-gray-600 dark:text-gray-400">(Admin)</span>
-              </button>
+              </button> */}
               <button
                 type="button"
                 onClick={() => quickLogin('arif', '123')}
@@ -94,13 +94,13 @@ export default function LoginPage() {
               >
                 <span className="font-mono font-bold">arif / 123</span> <span className="text-gray-600 dark:text-gray-400">(User)</span>
               </button>
-              <button
+              {/* <button
                 type="button"
                 onClick={() => quickLogin('baba', '123')}
                 className="w-full p-2 sm:p-3 text-xs sm:text-sm bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded text-left transition"
               >
                 <span className="font-mono font-bold">baba / 123</span> <span className="text-gray-600 dark:text-gray-400">(User)</span>
-              </button>
+              </button> */}
             </div>
           </div>
         </form>

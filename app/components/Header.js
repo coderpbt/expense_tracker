@@ -59,7 +59,7 @@ export default function Header({ user }) {
       '/categories': 'Categories',
       '/loans': 'Loans',
       '/reports': 'Reports',
-      '/audit': 'Audit Log',
+      // '/audit': 'Audit Log',
       '/settings': 'Settings',
     };
     return titles[pathname] || 'Dashboard';

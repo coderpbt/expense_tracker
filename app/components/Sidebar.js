@@ -32,7 +32,7 @@ export default function Sidebar() {
     { href: '/categories', label: 'Categories', icon: '📁' },
     { href: '/loans', label: 'Loans', icon: '💳' },
     { href: '/reports', label: 'Reports', icon: '📈' },
-    { href: '/audit', label: 'Audit Log', icon: '📋' },
+   // { href: '/audit', label: 'Audit Log', icon: '📋' },
     { href: '/settings', label: 'Settings', icon: '⚙️' },
   ];
 
