@@ -83,7 +83,7 @@ export default function ExpensesPage(){
 
   return (
     <div>
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-4 mt-16 lg:mt-0">
         <h1 className="text-2xl font-bold">Expenses</h1>
         <button onClick={() => { setEditing(null); setShowModal(true); setAmount(''); setDescription(''); setDate(''); setCategoryId(''); setUserId(''); }} className="px-4 py-2 bg-blue-600 text-white rounded">+ New Expense</button>
       </div>

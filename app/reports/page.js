@@ -122,7 +122,7 @@ export default function ReportsPage() {
   }
 
   return (
-    <div>
+    <div className="mt-16 lg:mt-0">
       <h1 className="text-2xl font-bold mb-4">Reports</h1>
       <Filters onApply={(f) => { setFilters(f); }} />
 

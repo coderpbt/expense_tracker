@@ -73,7 +73,7 @@ export default function DepositsPage() {
 
   return (
     <div>
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-4 mt-16 lg:mt-0">
         <h1 className="text-2xl font-bold">Deposits</h1>
         <button onClick={() => { setEditing(null); setShowModal(true); setAmount(''); setNote(''); setUserId(''); setDate(new Date().toISOString().slice(0,10)); }} className="px-4 py-2 bg-blue-600 text-white rounded">+ New Deposit</button>
       </div>

@@ -58,7 +58,7 @@ export default function LoansPage(){
 
   return (
     <div>
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-4 mt-16 lg:mt-0">
         <h1 className="text-2xl font-bold">Loans</h1>
         <button onClick={() => { setShowModal(true); setAmount(''); setDate(new Date().toISOString().slice(0,10)); setUserId(''); setType('taken'); }} className="px-4 py-2 bg-blue-600 text-white rounded">+ New Loan</button>
       </div>

@@ -34,7 +34,7 @@ export default function CategoriesPage(){
 
   return (
     <div>
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-4 mt-16 lg:mt-0">
         <h1 className="text-2xl font-bold">Categories</h1>
         <button onClick={() => setShowModal(true)} className="px-4 py-2 bg-blue-600 text-white rounded">+ New Category</button>
       </div>
