@@ -42,7 +42,8 @@ export default function Sidebar() {
     <>
       {/* Mobile hamburger button - visible only on mobile */}
       <div className="md:hidden fixed top-0 left-0 right-0 bg-white dark:bg-gray-800 border-b dark:border-gray-700 px-4 py-3 flex items-center justify-between z-50">
-        <div className="text-lg font-bold">Expense Tracker</div>
+        {/* <div className="text-lg font-bold">Expense Tracker D</div> */}
+        <Link className="text-lg font-bold" href='/dashboard'>Expense Tracker</Link>
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition"
@@ -79,7 +80,7 @@ export default function Sidebar() {
       >
         {/* Desktop header - hidden on mobile */}
         <div className="hidden md:block p-4 text-xl font-bold border-b dark:border-gray-700">         
-          <Link href='/'>Expense Tracker</Link>
+          <Link href='/dashboard'>Expense Tracker </Link>
         </div>
 
         {/* Navigation */}
